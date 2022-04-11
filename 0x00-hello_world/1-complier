@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -E complier.c $CFILE -o complier.o
