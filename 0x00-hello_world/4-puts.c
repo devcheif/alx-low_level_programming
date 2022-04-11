@@ -6,7 +6,7 @@
  * return - Always 0 (sucess)
  */
 
-char main(void)
+int main(void)
 
 {
 /* programming */
