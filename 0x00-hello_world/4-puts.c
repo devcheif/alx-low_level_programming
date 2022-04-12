@@ -3,9 +3,8 @@
 /**
  * main - Entry point
  *
- * return: Always 0 (sucess)
+ * return: 0 after printing the function
  */
-
 int main(void)
 
 {
