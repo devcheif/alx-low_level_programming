@@ -6,11 +6,9 @@
  * return - Always 0 (sucess)
  */
 
-int main()
+int main(void)
 
 {
-/* programming */
-puts("Programming is like building a multilingual puzzle\n");
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
-
