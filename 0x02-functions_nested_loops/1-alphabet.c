@@ -6,6 +6,8 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+{
+int print_alphabet(void)
 
 {
 int alphabet;
@@ -18,4 +20,5 @@ putchar(alphabet);
 putchar('\n');
 
 return (0);
+}
 }
