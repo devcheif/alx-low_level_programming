@@ -22,10 +22,12 @@ for (i=3; i <= number; ++i)
 {
 n3 = n1 + n2;
 printf("%d", n3);
-}
+n1=n2;
+n2=n3;
 
 putchar(',');
 putchar(' ');
+}
 
 return (0);
 }
