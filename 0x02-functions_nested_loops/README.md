@@ -1,1 +1,1 @@
-i love nested while
+My taskes for 0x02-functions_nested_loops
