@@ -8,7 +8,7 @@
 int main(void)
 
 {
-int n1 = 1, n2 = 2, n3 = n1 +n2, number = 50;
+int n1 = 1, n2 = 2, n3 = 0, number = 50;
 
 printf("The number of the elements: %d\n", number);
 printf("%d, %d, ", n1, n2);
