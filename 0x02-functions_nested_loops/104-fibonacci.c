@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-int a = 1, b = 2, resul = a + b, i, num = 98;
+int a = 1, b = 2, result = a + b, i, num = 98;
 
 printf("The number of matches is: ");
 printf("%d, %d, ", a, b);
 
 for (i = 3; i <= num; i++)
 {
-printf("%d, " result);
 result = a + b;
+printf("%d, ", result);
 a = b;
 b = result;
 }
