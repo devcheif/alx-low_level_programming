@@ -10,6 +10,7 @@ int main(void)
 int a = 1, b = 2, result = a + b, i, num = 98;
 
 printf("The number of matches is: ");
+scanf("%d", &n);
 printf("%d, %d, ", a, b);
 
 for (i = 3; i <= num; i++)
