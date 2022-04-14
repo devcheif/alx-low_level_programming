@@ -14,15 +14,15 @@ int _isupper(int c);
 
 {
 char c;
-if (c = 'A' ||  c <= 'Z')
+
+else if (c >= 'a' && c <= 'z')
 {
-return (1);
-printf("%c : 1", c);
+printf("%c: %d\n", c, _isupper(c));
 }
 
-else
+else if (c >= 'a' && c <= 'z')
 {
-return (0);
+printf("%c: %d\n", c, _isupper(c));
 }
 }
 
